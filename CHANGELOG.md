@@ -5,6 +5,11 @@ Tutte le modifiche rilevanti a questo modulo sono documentate in questo file.
 Il formato è basato su [Keep a Changelog](https://keepachangelog.com/it/1.1.0/)
 e questo progetto aderisce al [Semantic Versioning](https://semver.org/lang/it/).
 
+## [1.0.2] - 2026-11-02
+### Corretto
+- Con Magento 2.4.9 la spedizione creata insieme alla lettera di vettura risultava vuota ("We cannot create an empty shipment"), quindi non veniva registrato il tracking: ora si passano le quantità da spedire di ogni articolo.
+- Il log di debug non riporta più la firma temporanea (`sig`, `sastoken`) del link di download dell'etichetta.
+
 ## [1.0.1] - 2026-10-20
 ### Corretto
 - Il commento di "Public Tracking URL" in configurazione mostrava il testo senza il segnaposto `{{waybill}}` (interpretato come direttiva di template).
