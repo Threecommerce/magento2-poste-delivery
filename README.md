@@ -4,7 +4,7 @@ Connects Magento 2 and Mage-OS to **Poste Delivery Business** (Poste Italiane AP
 
 ![Order page with the Poste Delivery Business box, waybill and label buttons](images/poste-delivery-order-waybill.png)
 
-**Compatibility:** Magento Open Source / Adobe Commerce 2.4.4 – 2.4.9 · Mage-OS 1.x / 3.x · PHP 8.1 – 8.4
+**Compatibility:** Magento Open Source / Adobe Commerce 2.4.4 – 2.4.9 · Mage-OS 1.x / 3.x · PHP 8.1 – 8.5
 **License:** commercial · coming soon
 
 ## Features
@@ -24,7 +24,7 @@ Connects Magento 2 and Mage-OS to **Poste Delivery Business** (Poste Italiane AP
 ## Requirements
 
 - Magento Open Source / Adobe Commerce 2.4.4+ or Mage-OS
-- PHP 8.1 – 8.4 with `curl` and `json` extensions
+- PHP 8.1 – 8.5 with `curl` and `json` extensions
 - Package: `threecommerce/m2-base`
 - An active Poste Delivery Business contract with Client ID, Secret ID and cost center code
 - Magento cron running on the server
